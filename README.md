@@ -24,10 +24,6 @@ Do-Re-Me is a music app that allows people to discover new music based on locati
 ## Product Spec
 ### 1. User Stories (Required and Optional)
 
-:::info
-Edison's part
-:::
-
 **Required Must-have Stories**
 
 * User logs in to access previous chats and preference settings
@@ -77,9 +73,6 @@ Optional:
 * Profile -> Text field to be modified. 
 * Settings -> Toggle settings
 
-:::info
-Aditya's part
-:::
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 
