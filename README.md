@@ -74,10 +74,5 @@ Optional:
 * Settings -> Toggle settings
 
 ## Wireframes
-![Happy Christmas](Wireframe.png)
+![Wireframe](Wireframe.png)
 
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
-
-### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
