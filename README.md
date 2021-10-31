@@ -11,7 +11,7 @@ Unit 8: Group Milestone
 
 ## Overview
 ### Description
-Do-Re-Me is a music app that allows people to discover new music based on location. Users can "drop" music at their location, and when other users walk by, they can add the song to their queue!
+Do-Re-Mi is a music app that allows people to discover new music based on location. Users can "drop" music at their location, and when other users walk by, they can add the song to their queue!
 
 ### App Evaluation
 - **Category:** Social Networking / Music
@@ -74,7 +74,7 @@ Optional:
 * Settings -> Toggle settings
 
 ## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+<img src="wireframe.jpg" width=800><br>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.imgur.com/lYHn37F.jpg" height=200>
