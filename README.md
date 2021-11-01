@@ -26,16 +26,15 @@ Do-Re-Mi is a music app that allows people to discover new music based on locati
 
 **Required Must-have Stories**
 
-* User logs in to access previous chats and preference settings
-* User picks what their favorite artist/genre/etc. (Think Spotify interface)
-* Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
+* User logs in with their username and password.
+* User can see their current location and other spots where songs are dropped.
+* Users can listen to music at dripped sight and add to playlist if they like it. (Spotify API)
 * Profile pages for each user
 * Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-* Log of past songs/people with album art covers matching
-* Page of most played songs (i.e. songs that most users are connecting through)
+* Log of past songs/people with album art covers 
 * Profile Add-On: Top music choices, etc.
 * Optional Shuffle Button (i.e. random encounter/random song)
 * Listening/Encounter Queue
