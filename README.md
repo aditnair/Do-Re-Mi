@@ -75,3 +75,27 @@ Optional:
 ## Wireframes
 ![Wireframe](Wireframe.png)
 
+## Schema 
+### Models
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | userId        | String   | unique id for the user (default field) |
+   | username      | String   | username specified by client |
+   | email         | String   | Email of user|
+   | hash          | String   | encrypted password of the user |
+   | salt          | String   | salt used for password encryption |
+   | createdAt     | DateTime | date when user account is created (default field) |
+   | updatedAt     | DateTime | date when user credentials were last updated (default field) |
+   
+#### Song Drop
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectID      | String   | unique id for the song drop (default field) |
+   | user          | Pointer to the Poster   | Information on who posted the song|
+   | songURI       | String   | The URI created by Spotify for its songs|
+   | createdAt     | DateTime | date when the drop is created|
+   | location      | [Latitude, Longitude] | The location where the song was dropped, and where the song will display on the map |
+
+
