@@ -99,6 +99,7 @@ Optional:
    | location      | [Latitude, Longitude] | The location where the song was dropped, and where the song will display on the map |
 
 ### Networking
+``` swiftUI
 let query = PFQuery(className:"Post")
 query.whereKey("author", equalTo: currentUser)
 query.order(byDescending: "createdAt")
@@ -110,4 +111,5 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   // TODO: Do something with posts...
    }
 }
+```
 
