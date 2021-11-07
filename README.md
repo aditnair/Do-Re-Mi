@@ -98,4 +98,16 @@ Optional:
    | createdAt     | DateTime | date when the drop is created|
    | location      | [Latitude, Longitude] | The location where the song was dropped, and where the song will display on the map |
 
+### Networking
+let query = PFQuery(className:"Post")
+query.whereKey("author", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let posts = posts {
+      print("Successfully retrieved \(posts.count) posts.")
+  // TODO: Do something with posts...
+   }
+}
 
