@@ -129,7 +129,7 @@ task.resume()
 
 #Getting Songs (Read/GET)
 ```swift
-let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1")
+let url = URL(string: "Database URL")
 guard let requestUrl = url else { fatalError() }
 
 var request = URLRequest(url: requestUrl)
