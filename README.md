@@ -1,7 +1,3 @@
-# Do-Re-Mi
-Unit 8: Group Milestone 
-===
-
 # Do-Re-Me
 
 ## Table of Contents
