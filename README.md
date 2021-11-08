@@ -127,3 +127,31 @@ let task = URLSession.shared.dataTask(with: request) { (data, response, error) i
 task.resume()
 ```
 
+#Getting Songs (Read/GET)
+```swift
+let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1")
+guard let requestUrl = url else { fatalError() }
+
+var request = URLRequest(url: requestUrl)
+request.httpMethod = "GET"
+
+let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+    
+    if let error = error {
+        print("Error took place \(error)")
+        return
+    }
+    
+    if let response = response as? HTTPURLResponse {
+        print("Response HTTP Status code: \(response.statusCode)")
+    }
+    
+    // Convert HTTP Response Data to a simple String 
+    if let data = data, let dataString = String(data: data, encoding: .utf8) {
+        print("Response data string:\n \(dataString)")
+    }
+    
+}
+task.resume()
+```
+
