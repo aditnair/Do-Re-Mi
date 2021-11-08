@@ -127,7 +127,7 @@ let task = URLSession.shared.dataTask(with: request) { (data, response, error) i
 task.resume()
 ```
 
-#Getting Songs (Read/GET)
+* Getting Songs (Read/GET)
 ```swift
 let url = URL(string: "Database URL")
 guard let requestUrl = url else { fatalError() }
