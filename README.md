@@ -107,7 +107,7 @@ guard let requestURL = url else { fatalError() }
 var request = URLRequest(url: requestURL)
 request.httpMethod = "POST"
 
-let postString = "objectID=001&songURI=100&title=Industry Baby&pictureURL=URL&location=29.6499278,-82.3377014"
+let postString = "objectID=001&songURI=100&title=Industry Baby&user=123456&date=08/04/2001&pictureURL=URL&location=29.6499278,-82.3377014"
 
 request.httpBody = postString.data(using: String.Encoding.utf8);
 
