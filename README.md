@@ -99,17 +99,31 @@ Optional:
    | location      | [Latitude, Longitude] | The location where the song was dropped, and where the song will display on the map |
 
 ### Networking
+* Dropping Songs (Create/POST)
 ``` swift
-let query = PFQuery(className:"Post")
-query.whereKey("author", equalTo: currentUser)
-query.order(byDescending: "createdAt")
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error { 
-      print(error.localizedDescription)
-   } else if let posts = posts {
-      print("Successfully retrieved \(posts.count) posts.")
-  // TODO: Do something with posts...
-   }
+let url = NSURL(string: "Firebase URL Here")
+guard let requestURL = url else { fatalError() }
+
+var request = URLRequest(url: requestURL)
+request.httpMethod = "POST"
+
+let postString = "songID=100&title=Industry Baby&pictureURL=URL&location=29.6499278,-82.3377014"
+
+request.httpBody = postString.data(using: String.Encoding.utf8);
+
+let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+        
+        // Check for Error 
+        if let error = error {
+            print("Error took place \(error)")
+            return
+        }
+ 
+        // Convert HTTP Response Data to a String
+        if let data = data, let dataString = String(data: data, encoding: .utf8) {
+            print("Response data string:\n \(dataString)")
+        }
 }
+task.resume()
 ```
 
