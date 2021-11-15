@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		36D2E8FB2741D89A00D19CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E8F92741D89A00D19CED /* Main.storyboard */; };
 		36D2E8FD2741D89C00D19CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E8FC2741D89C00D19CED /* Assets.xcassets */; };
 		36D2E9002741D89C00D19CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D2E8FE2741D89C00D19CED /* LaunchScreen.storyboard */; };
+		EA8AD8AE2741E62E00CB28C1 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8AD8AD2741E62E00CB28C1 /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		36D2E8FC2741D89C00D19CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D2E8FF2741D89C00D19CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36D2E9012741D89C00D19CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8AD8AD2741E62E00CB28C1 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../../Downloads/ios-sdk-1.2.2/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		EA8AD8AF2741E8BC00CB28C1 /* DoReMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoReMe-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8AD8AE2741E62E00CB28C1 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,8 @@
 				36D2E8FC2741D89C00D19CED /* Assets.xcassets */,
 				36D2E8FE2741D89C00D19CED /* LaunchScreen.storyboard */,
 				36D2E9012741D89C00D19CED /* Info.plist */,
+				EA8AD8AD2741E62E00CB28C1 /* SpotifyiOS.framework */,
+				EA8AD8AF2741E8BC00CB28C1 /* DoReMe-Bridging-Header.h */,
 			);
 			path = "Do-Re-Mi";
 			sourceTree = "<group>";
@@ -93,7 +99,6 @@
 		36D2E8E82741D89A00D19CED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
@@ -103,7 +108,7 @@
 				};
 			};
 			buildConfigurationList = 36D2E8EB2741D89A00D19CED /* Build configuration list for PBXProject "Do-Re-Mi" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -289,7 +294,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGR2V3LLDF;
+				DEVELOPMENT_TEAM = 995J5DM57N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Do-Re-Mi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,9 +307,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Do-Re-Mi";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = doremifa.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DoReMe-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGR2V3LLDF;
+				DEVELOPMENT_TEAM = 995J5DM57N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Do-Re-Mi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,9 +337,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Do-Re-Mi";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = doremifa.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DoReMe-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
