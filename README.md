@@ -82,8 +82,8 @@ Optional:
    | email         | String   | Email of user|
    | hash          | String   | encrypted password of the user |
    | salt          | String   | salt used for password encryption |
-   | createdAt     | DateTime | date when user account is created (default field) |
-   | updatedAt     | DateTime | date when user credentials were last updated (default field) |
+   | createdAt     | Date     | date when user account is created (default field) |
+   | updatedAt     | Date     | date when user credentials were last updated (default field) |
    
 #### Song Drop
    | Property      | Type     | Description |
