@@ -154,4 +154,6 @@ task.resume()
 
 Very few lines of coded were needed for Sprint 1. Our Sprint 1 involved linking our xcode project with spotify and google firebase. To link with spotify we had to import the SpotifyiOS.framework, configure info.plst, Set the -ObjC Linker Flag, and Add a bridging error. To link with google firebase I had to import firebase, add the GoogleService-info.plst. Firebase also had to be imported through the pod file.
 
+<img src='https://imgur.com/g6BQHJg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
