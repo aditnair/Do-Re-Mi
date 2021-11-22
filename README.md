@@ -24,9 +24,9 @@ Do-Re-Mi is a music app that allows people to discover new music based on locati
 
 - [X] User logs in with their username and password.
 - [X] User can see their current location and other spots where songs are dropped.
-- [] Users can listen to music at dropped sight and add to playlist if they like it. (Spotify API)
-- [] Profile pages for each user
-- [] Settings (Accesibility, Notification, General, etc.)
+- [ ] Users can listen to music at dropped sight and add to playlist if they like it. (Spotify API)
+- [ ] Profile pages for each user
+- [ ] Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
