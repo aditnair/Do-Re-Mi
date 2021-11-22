@@ -156,4 +156,8 @@ Very few lines of coded were needed for Sprint 1. Our Sprint 1 involved linking 
 
 <img src='https://imgur.com/g6BQHJg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+### Sprint 2
 
+We created the front-end for the first page of the app. Then we connected the front-end with Firebase. Currently the user is able to create their own username and password. The user is also able to sign in using Google. The current front page of the app is identical to what we designed in the mockup. Other information regarding the user can also be stored with their account now.
+
+<img src='https://imgur.com/g6BQHJg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
