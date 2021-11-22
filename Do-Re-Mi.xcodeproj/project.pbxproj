@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		08A21CC58D71E24315C01F23 /* Pods_Do_Re_Mi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7615A4ACF37D08F56D901C93 /* Pods_Do_Re_Mi.framework */; };
 		212DC3462741F5F600610A1E /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212DC3452741F5F600610A1E /* SpotifyiOS.framework */; };
+		212DC3482742052C00610A1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 212DC3472742052C00610A1E /* GoogleService-Info.plist */; };
 		36D2E8F42741D89A00D19CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E8F32741D89A00D19CED /* AppDelegate.swift */; };
 		36D2E8F62741D89A00D19CED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E8F52741D89A00D19CED /* SceneDelegate.swift */; };
 		36D2E8F82741D89A00D19CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2E8F72741D89A00D19CED /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		212DC3452741F5F600610A1E /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "Do-Re-Mi/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		212DC3472742052C00610A1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		215D4FBE2741F25E0060BE3D /* DoReMi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoReMi-Bridging-Header.h"; sourceTree = "<group>"; };
 		30B8823F3A1FACCA26561578 /* Pods-Do-Re-Mi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do-Re-Mi.release.xcconfig"; path = "Target Support Files/Pods-Do-Re-Mi/Pods-Do-Re-Mi.release.xcconfig"; sourceTree = "<group>"; };
 		36D2E8F02741D89A00D19CED /* Do-Re-Mi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-Re-Mi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				36D2E8FC2741D89C00D19CED /* Assets.xcassets */,
 				36D2E8FE2741D89C00D19CED /* LaunchScreen.storyboard */,
 				36D2E9012741D89C00D19CED /* Info.plist */,
+				212DC3472742052C00610A1E /* GoogleService-Info.plist */,
 			);
 			path = "Do-Re-Mi";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D2E9002741D89C00D19CED /* LaunchScreen.storyboard in Resources */,
+				212DC3482742052C00610A1E /* GoogleService-Info.plist in Resources */,
 				36D2E8FD2741D89C00D19CED /* Assets.xcassets in Resources */,
 				36D2E8FB2741D89A00D19CED /* Main.storyboard in Resources */,
 			);
@@ -427,7 +431,7 @@
 					"\"openssl_grpc\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.Do-Re-Mi-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.Do-Re-Mi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "./Do-Re-Mi/DoReMi-Bridging-Header.h";
@@ -507,7 +511,7 @@
 					"\"openssl_grpc\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.Do-Re-Mi-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.Do-Re-Mi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "./Do-Re-Mi/DoReMi-Bridging-Header.h";
