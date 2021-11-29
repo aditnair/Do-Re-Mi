@@ -24,6 +24,7 @@ Do-Re-Mi is a music app that allows people to discover new music based on locati
 
 - [X] User logs in with their username and password.
 - [X] User can see their current location and other spots where songs are dropped.
+- [X] User can drop a chosen song
 - [ ] Users can listen to music at dropped sight and add to playlist if they like it. (Spotify API)
 - [ ] Profile pages for each user
 - [ ] Settings (Accesibility, Notification, General, etc.)
@@ -160,4 +161,9 @@ Very few lines of coded were needed for Sprint 1. Our Sprint 1 involved linking 
 
 We created the front-end for the first page of the app. Then we connected the front-end with Firebase. Currently the user is able to create their own username and password. The user is also able to sign in using Google. The current front page of the app is identical to what we designed in the mockup. Other information regarding the user can also be stored with their account now.
 
-<img src='https://imgur.com/FpRHpGP.gif' title='Video Walkthroughh' width='' alt='Video Walkthroughh' />
+<img src='https://imgur.com/FpRHpGP.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+### Sprint 3
+We created the primary functionality of the app to allow users to "drop" songs at their current location, and view the available songs on a map. Currently, the user is able to drop their desired song from Spotify, drop it on the map, and then view it.
+
+<img src='https://imgur.com/FpRHpGP.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
